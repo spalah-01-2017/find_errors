@@ -9,11 +9,12 @@
 		var programChoice;
 		var drawMessage;
 		var isUserLooser;
+		var oneWinnerMessage;
 		var ROCK = 'камень';
 		var PAPER = 'бумага';
 		var SCISSORS = 'ножницы';
-		var userChoice = prompt('Камень, ножницы или бумага? Выбирай', ROCK).trim.toLowerCase();
-		var rand = Math.floor(Math.random * 3);
+		var userChoice = prompt('Камень, ножницы или бумага? Выбирай', ROCK).trim().toLowerCase();
+		var rand = Math.floor(Math.random() * 3);
 
 		if(rand = 1) {
 		  programChoice = PAPER;
